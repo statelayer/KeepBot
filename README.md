@@ -5,7 +5,7 @@ Data feeds are from ETHplorer and SunTzu's subgraph.
 
 Will answer to the following commands : 
 
-!keep all : Show all network stats
+!keep all : Show all network stats \n
 !keep price: $KEEP price
 !keep volume: KEEP 24h volume 
 !keep stakers : number of stakers on the network 
