@@ -3,7 +3,7 @@
 Using node.js, discord.js and axios for API calls.
 Data feeds are from ETHplorer and SunTzu's subgraph.
 
-Will answer to the following commands :\ 
+Will answer to the following commands :\
 !keep all : Show all network stats\
 !keep price: $KEEP price\
 !keep volume: KEEP 24h volume \
@@ -13,6 +13,6 @@ Will answer to the following commands :\
 !keep stakedropreserve: Amount of KEEP in the stakedrop reserve \
 !keep liquidityreserve: Amount of KEEP in the liquidity reserve \
 !keep beacontransactions: Total number of random beacon transactions \
-!keep help: Display available commands \
+!keep help: Display available commands 
 
 Currently ran 24/24 on a VPS. 
