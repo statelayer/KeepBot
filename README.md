@@ -13,6 +13,9 @@ Will answer to the following commands :\
 !keep stakedropreserve: Amount of KEEP in the stakedrop reserve \
 !keep liquidityreserve: Amount of KEEP in the liquidity reserve \
 !keep beacontransactions: Total number of random beacon transactions \
+!keep exchanges : Displays and tracks current KEEP balances in each signficant DEX and CEX. \
+!keep marketcap : Market cap based on circulating supply \
+!keep wen : Message reminding people there was and will be no keep ICO. \
 !keep help: Display available commands 
 
-Currently ran 24/24 on a VPS. 
+Currently available 24/24 and running on a VPS. Feedback welcome
