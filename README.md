@@ -19,3 +19,5 @@ Will answer to the following commands :\
 !keep help: Display available commands 
 
 Currently available 24/24 and running on a VPS. Feedback welcome
+
+![Capture d’écran 2020-08-12 à 23 01 43](https://user-images.githubusercontent.com/64177189/90090069-18d40a80-dcf1-11ea-9555-9c22ca9456c6.png)
