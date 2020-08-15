@@ -9,14 +9,18 @@ module.exports = {
 	execute(message) {
 		message.channel.send(
 		`Start your message with !keep. Try these commands: 
+!keep all : Show all network stats
 !keep price: $KEEP price
 !keep volume: KEEP 24h volume 
+!keep stakers : number of stakers on the network 
 !keep holders: Amount of holders of KEEP 
 !keep staked: Amount of KEEP staked in the random beacon contract 
 !keep stakedropreserve: Amount of KEEP in the stakedrop reserve 
 !keep liquidityreserve: Amount of KEEP in the liquidity reserve 
 !keep beacontransactions: Total number of random beacon transactions
+!keep exchanges : show keep balances in exchanges
+!keep wen ICO? : (Hint, never)
 !keep help: Display available commands
-Suggestions welcome, just ping me @StateLayer`);
+Suggestions welcome, just ping me @StateLayer. Data feeds powered by Ethplorer and SunTzu's subgraph`);
 	},
 };

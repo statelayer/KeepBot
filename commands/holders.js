@@ -10,6 +10,7 @@ module.exports = {
 		axios.get(UrlToFetch).then(function (response) {
 		const nbHolders = response.data.holdersCount;
 		message.channel.send(`There are ${nbHolders} Keep holders`);
+		console.log("bruh");
 		});
 	},
 };

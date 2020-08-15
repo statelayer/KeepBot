@@ -1,0 +1,40 @@
+const axios = require('axios').default;
+const KeepAddress = `0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC`;
+const UrlToFetch = 
+
+
+module.exports = {
+	name: 'stakers',
+	description: 'get total number of stakers',
+	execute(message) {
+        var result = await axios({
+            method: "POST",
+            url: "https://api.thegraph.com/subgraphs/name/suntzu93/keepnetwork",
+            data: {
+                query: `
+                {
+                    tokenStakings {
+                      contractAddress
+                      totalStaker
+                      totalTokenStaking
+                      totalTokenSlash
+                      members(first: 5, where: {stakingState: STAKED}, orderBy: amount, orderDirection: desc) {
+                        id
+                        amount
+                      }
+                    }
+                  }
+                  
+                `
+            } 
+        
+        });
+    console.log("bruh");
+    console.log(result);
+    console.log(data);
+    console.log(tokenStakings);
+    const totalStakers=result.data.totalStakings[0].totalStaker;    
+    message.channel.send(`There are ${totalStakers} stakers`);
+
+	},
+};
